@@ -1,12 +1,12 @@
-import Link from "next/link";
-import "./globals.css";
+import Link from 'next/link';
+import './globals.css';
 import { Inconsolata } from 'next/font/google';
 
 const fnt = Inconsolata({ subsets: ['latin'] })
 
 export const metadata = {
-  title: "Reading Recorder",
-  description: "App for record the books I have read",
+  title: 'Reading Recorder',
+  description: 'App for record the books I have read',
 };
 
 export default function RootLayout({ children }) {
